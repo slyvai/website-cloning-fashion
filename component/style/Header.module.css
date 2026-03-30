@@ -1,0 +1,104 @@
+.offer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3F1700;
+    color: white;
+    padding: min(1.778vh, 1vw);
+    font-size: min(1.6vh, 0.9vw);
+    letter-spacing: min(0.178vh, 0.1vw);
+}
+.text {
+    margin-right: min(8.889vh, 5vw);
+}
+.text .textSpan2 a{
+    font-weight: bold;
+    color: #F5BD62;
+}
+.text .textSpan1 {
+    font-weight: bold
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: min(1.778vh, 1vw);
+    height: min(10.556vh, 6vw);
+    background-color: #fff;
+}
+.logo p {
+    font-size: min(2.133vh, 1.2vw);
+    font-weight: bold;
+    color: #3F1700;
+}
+.nav nav{
+    display: flex;
+    gap: min(3.556vh, 2vw);
+    font-size: min(1.6vh, 0.9vw);
+}
+.nav nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #3F1700;
+}
+.whiteContainer {
+    position: relative;
+}
+.whiteContainer:hover .menuDropdown {
+    display: flex;
+}
+.menuDropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    width: auto;
+    padding: min(1.778vh, 1vw);
+    box-shadow: 0 0.417vw 1.25vw rgba(0, 0, 0, 0.1);
+    border-bottom: 0.7vw solid #F5BD62;
+    gap: min(3.556vh, 2vw);
+    z-index: 1;
+    flex-direction: row;
+}
+.menuDropdown h1 {
+    width: 100%;
+    font-size: min(1.778vh, 1vw);
+    font-weight: bold;
+    margin-bottom: min(0.889vh, 0.5vw);
+    color: #3F1700;
+    padding-bottom: min(0.889vh, 0.5vw);
+}
+.menuDropdown a {
+    width: min(17.778vh, 10vw);
+    font-size: min(1.778vh, 1vw);
+    color: #888;
+    padding: min(0.711vh, 0.4vw);
+    text-decoration: none;
+}
+.navDropdown {
+    display: flex;
+    flex-direction: column;
+}
+.navDropdown a {
+    color: #888 !important;
+}
+.icons {
+    display: flex;
+    gap: min(1.778vh, 1vw);
+    font-size: min(2.311vh, 1.3vw);
+}
+.icons :global(.anticon-user) {
+    cursor: pointer;
+}
+.icons a {
+    color: #3F1700;
+}
+.whiteContainer {
+    background-color: #fff;
+}
+.imgContainer .imgDummy {
+    background-color: #ccc;
+    width: min(30.222vh, 17vw);
+    height: min(46.222vh, 26vw);
+}

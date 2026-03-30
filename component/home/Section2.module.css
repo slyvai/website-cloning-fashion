@@ -1,0 +1,135 @@
+.section2 {
+    height: min(60vh, 33.75vw);
+    width: 100%;
+    margin: min(17.778vh, 10vw) min(17.778vh, 10vw);
+}
+
+.textContainer {
+    font-size: min(1.956vh, 1.1vw);
+}
+
+.title {
+    margin-top: min(1.778vh, 1vw);
+}
+
+.grid {
+    display: flex;
+    gap: min(1.778vh, 1vw);
+    margin-top: min(3.556vh, 2vw);
+}
+
+.grid a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.textGrid {
+    line-height: min(3.556vh, 2vw);
+}
+
+.productCard {
+    width: min(44.444vh, 25vw);
+    height: min(53.333vh, 30vw);
+}
+
+.productInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+.section2 h3{
+    font-size: min(2.133vh, 1.2vw);
+}
+.dummyImg {
+    background-color: #F6F6F6;
+    width: min(39.111vh, 22vw);
+    height: min(39.111vh, 22vw);
+}
+
+.variant {
+    color: #787878;
+    font-size: min(1.956vh, 1.1vw);
+}
+
+.rating {
+    font-size: min(1.778vh, 1vw);
+    font-weight: 600;
+    letter-spacing: min(0.178vh, 0.1vw);
+}
+
+.price {
+    font-size: min(2.311vh, 1.3vw);
+    font-weight: 500;
+    display: flex;
+    gap: min(1.778vh, 1vw);
+}
+
+.priceDiscount {
+    font-weight: bold;
+}
+
+.priceFixed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.discountText {
+    color: #00a158;
+    width: min(9.244vh, 5.2vw);
+    height: min(3.556vh, 2vw);
+    background: #fff;
+    text-align: center;
+    font-size: min(1.956vh, 1.1vw);
+    font-weight: 600;
+}
+
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.button {
+    padding: min(0.889vh, 0.5vw) min(1.778vh, 1vw);
+    height: min(5.333vh, 3vw);
+    background-color: #ffffff;
+    border: min(0.178vh, 0.1vw) solid #000000;
+    font-size: min(1.778vh, 1vw);
+    margin-left: min(1.778vh, 1vw);
+    font-weight: 500;
+    letter-spacing: min(0.178vh, 0.1vw);
+}
+
+.productContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: min(1.778vh, 1vw);
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: min(1.778vh, 1vw);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: min(2.133vh, 1.2vw);
+}
+
+.iconVisible {
+    opacity: 1;
+}
+
+.icon .iconInner {
+    background-color: #fff;
+    display: flex;
+    padding: min(1.778vh, 1vw);
+    border-radius: 50%;
+    box-shadow: 0 5px #0000001a;
+}
+
+.button:hover {
+    background-color: #3F1700;
+    color: #ffffff;
+}

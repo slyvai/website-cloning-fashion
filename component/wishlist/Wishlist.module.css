@@ -1,0 +1,78 @@
+.wishlist :global(.ant-table-content){
+    font-size: 1vw;
+    margin: 2vw 5vw;
+}
+.wishlist :global(.ant-table-thead > tr > th){
+    background: #F5BD62;
+}
+.wishlist :global(.ant-table-tbody > tr > td:last-child) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wishlist :global(.ant-table-tbody > tr > td:first-child button) {
+    border: none;
+    background: transparent;
+}
+.wishlist :global(.ant-table-tbody > tr > td:first-child .anticon-close){
+    font-size: 1vw;
+}
+.wishlist :global(.ant-pagination) {
+    display: none;
+}
+.wishlist :global(.ant-btn) {
+    background: #3F1700;
+    color: #fff;
+    border-radius: 0;
+    font-size: 0.9vw;
+    padding: 1.3vw;
+    font-weight: 600;
+}
+.button {
+    position: relative;
+}
+.innerButton {
+    display: flex;
+    margin: 0 10vw;
+    gap: 1vw;
+    position: absolute;
+    right: 0;
+}
+.button .clear button {
+    background: transparent;
+    border: none;
+    color: #3F1700;
+    text-decoration: underline;
+}
+.button .addAll button {
+    background: #3F1700;
+    color: #fff;
+}
+.button button {
+    font-size: 0.9vw;
+    padding: 1vw;
+    font-weight: 600;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.colorSize {
+    display: flex;
+    gap: 2vw;
+    color: #787878;
+}
+.colorSize .line {
+    border-right: 1px solid #787878;
+    height: 1.3vw;
+    transform: translateX(-1vw);
+}
+.size {
+    transform: translateX(-2vw);
+}
+.dummyImg {
+    width: 3vw;
+    height: 3vw;
+    background-color: #d5d5d5;
+}

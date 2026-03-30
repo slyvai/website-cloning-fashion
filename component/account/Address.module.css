@@ -1,0 +1,85 @@
+.addressForm input, .addressForm select {
+    border: 1px solid #ccc;
+    padding: min(1.778vh, 1vw);
+    font-size: min(1.778vh, 1vw);
+    background: transparent;
+    width: min(44.444vh, 25vw);
+}
+
+.addressForm {
+    margin-top: min(1.778vh, 1vw);
+}
+
+.addressForm p {
+    color: red;
+}
+
+.addressForm .input {
+    display: flex;
+    flex-direction: column;
+}
+
+.addressForm label {
+    font-size: min(1.778vh, 1vw);
+    font-weight: 600;
+}
+
+.addressForm .row {
+    display: flex;
+    gap: min(1.778vh, 1vw);
+}
+
+.addressForm .column {
+    margin-top: min(1.778vh, 1vw);
+    display: flex;
+    flex-direction: column;
+    gap: min(1.778vh, 1vw);
+}
+
+.addressForm .column input, .addressForm .column select {
+    width: min(90.667vh, 51vw);
+}
+
+.addressContainer {
+    margin: min(1.778vh, 1vw);
+}
+
+.addressForm button {
+    padding: min(1.778vh, 1vw);
+    font-size: min(1.778vh, 1vw);
+    font-weight: 600;
+    background-color: #3F1700;
+    color: #fff;
+    margin-top: min(1.778vh, 1vw);
+    margin-right: min(1.778vh, 1vw);
+}
+
+.name p {
+    font-size: min(1.778vh, 1vw);
+    font-weight: 600;
+}
+
+.addressInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #888;
+    font-size: min(1.778vh, 1vw);
+    font-weight: 600;
+}
+
+.addressInfo button {
+    background-color: transparent;
+    border: none;
+    padding: min(1.778vh, 1vw);
+    font-size: min(1.778vh, 1vw);
+}
+
+.addressName {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: min(1.778vh, 1vw);
+    margin-top: min(1.778vh, 1vw);
+    width: 80%;
+}

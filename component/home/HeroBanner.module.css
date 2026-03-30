@@ -1,0 +1,56 @@
+.heroBanner {
+    height: min(100vh, 56.25vw);
+    width: 100%;
+    background-color: #F6F6F6;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.textContainer {
+    padding: min(23.111vh, 13vw) min(14.222vh, 8vw);
+    line-height: 1.5;
+    color: #3F1700;
+}
+
+.textContainer .title h1 {
+    font-size: min(5.689vh, 3.2vw);
+    font-weight: 600;
+    margin-block: min(3.556vh, 2vw);
+}
+
+.textContainer .desc {
+    font-size: min(1.956vh, 1.1vw);
+    margin-block: min(5.333vh, 3vw);
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    gap: min(0.889vh, 0.5vw);
+    align-items: center;
+    background-color: #ffffff;
+    width: min(44.444vh, 25vw);
+    padding: min(0.356vh, 0.2vw);
+    border-radius: min(1.778vh, 1vw);
+    font-size: min(2.667vh, 1.5vw);
+    font-weight: 600;
+}
+
+.button button {
+    margin-top: min(1.778vh, 1vw);
+    font-size: min(2.133vh, 1.2vw);
+    padding: min(1.778vh, 1vw) min(3.556vh, 2vw);
+    letter-spacing: min(0.178vh, 0.1vw);
+    color: #ffffff;
+    background-color: #3F1700;
+}
+
+.heroImg {
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+}

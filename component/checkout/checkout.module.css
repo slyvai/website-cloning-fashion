@@ -1,0 +1,112 @@
+.checkout {
+    display: flex;
+}
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin: 2vw 5vw;
+}
+.title h1 {
+    font-weight: 600;
+}
+.form input {
+    border: 1px solid #888;
+}
+.form label {
+    font-weight: 600;
+    font-size: 1vw;
+    margin-bottom: 0.8vw;
+}
+.form select {
+    font-size: 0.8vw;
+    width: 25vw;
+    border: 1px solid #888;
+    background-color: #fff;
+}
+.form h1 {
+    font-size: 1.3vw;
+}
+.row input {
+    display: flex;
+    flex-direction: column;
+    height: 3vw;
+    width: 28vw;
+    font-size: 1vw;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    gap: 2vw;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3vw;
+    margin-top: 1vw;
+}
+.column input, .column select {
+    width: 96%;
+    height: 3vw;
+    font-size: 1vw;
+}
+.errorText {
+    color: red;
+}
+.deliveryAddress{
+    display: flex;
+    gap: 1vw;
+}
+.sameAddress label, .differentAddress label {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    border: 1px solid #888;
+    padding: 1vw;
+}
+.sameAddress input[type="radio"], .differentAddress input[type="radio"] {
+    flex-shrink: 0;
+    width: 1.5vw;
+    height: 1.5vw;
+    accent-color: #3F1700;
+}
+.sameAddress p, .differentAddress p {
+    margin: 0;
+    font-size: 1vw;
+    line-height: 1.4;
+}
+.billingForm label {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+.billingForm p {
+    margin: 0;
+    font-size: 1vw;
+}
+.billingForm input[type="radio"] {
+    flex-shrink: 0;
+    width: 1.5vw;
+    height: 1.5vw;
+    accent-color: #3F1700;
+}
+.billingForm {
+    padding: 1vw;
+    border: 1px solid #888;
+}
+.name p{
+    font-size: 1vw;
+    font-weight: 600;
+}
+.addressInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #888;
+    font-size: 1vw;
+    font-weight: 600;
+}

@@ -1,0 +1,76 @@
+.containerBlog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: min(3.556vh, 2vw);
+    margin: min(3.556vh, 2vw) min(17.778vh, 10vw);
+    height: 100%;
+}
+
+.imageContainer .dummyImg {
+    position: relative;
+    width: min(44.444vh, 25vw);
+    height: min(35.556vh, 20vw);
+    background-color: #f0f0f0;
+}
+.date {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: min(0.356vh, 0.2vw);
+    background-color: #fff;
+    font-size: min(1.422vh, 0.8vw);
+    font-weight: 600;
+}
+.dateContent {
+    position: relative;
+    left: 2%;
+    font-size: min(1.778vh, 1vw);
+    top: min(0.356vh, 0.2vw);
+    background-color: #F5BD62;
+    padding: min(2.133vh, 1.2vw);
+}
+.textContainer h2 {
+    font-size: min(2.844vh, 1.6vw);
+    font-weight: 600;
+    margin-top: min(1.778vh, 1vw);
+    height: min(5.333vh, 3vw);
+    width: 80%;
+}
+.textContainer p {
+    font-size: min(1.778vh, 1vw);
+    flex-grow: 1;
+    width: 80%;
+    margin-top: min(2.133vh, 1.2vw);
+}
+.linkContainer {
+    margin-top: min(1.778vh, 1vw);
+}
+.linkContainer a {
+    color: #3F1700;
+    font-size: min(1.778vh, 1vw);
+    font-weight: 600;
+}
+.pagination :global(.ant-pagination) {
+    font-size: min(2.311vh, 1.3vw);
+    justify-content: center;
+}
+.pagination :global(.ant-pagination-item-active) {
+    background-color: #F5BD62;
+    width: min(4.267vh, 2.4vw);
+    height: min(4.089vh, 2.3vw);
+    padding-top: min(0.356vh, 0.2vw);
+    border: none;
+    border-radius: 0;
+}
+.pagination :global(.ant-pagination-item-active a) {
+    color: #000;
+}
+.pagination :global(.ant-pagination-options) {
+    display: none;
+}
+.pagination :global(.anticon-right) {
+    font-size: min(2.311vh, 1.3vw);
+}
+.pagination :global(.anticon-left) {
+    font-size: min(2.311vh, 1.3vw);
+}

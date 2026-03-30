@@ -1,0 +1,181 @@
+[
+  {
+    "id": 1,
+    "title": "The Best Summer Clothing for Winter",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Jennifer",
+    "tags": ["Winter", "Clothing", "Summer"],
+    "minRead": 10,
+    "date": "23 May 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "id": 2,
+    "title": "How to Style Layers Like a Pro",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Michael",
+    "tags": ["Fashion", "Layering", "Style"],
+    "minRead": 10,
+    "date": "25 May 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 3,
+    "title": "Top 10 Winter Jackets You Need",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Sophia",
+    "tags": ["Winter", "Jackets"],
+    "minRead": 10,
+    "date": "28 May 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 4,
+    "title": "Minimalist Fashion Trends 2023",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Daniel",
+    "tags": ["Minimalist", "Trends"],
+    "minRead": 10,
+    "date": "30 May 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 5,
+    "title": "Choosing the Right Fabric for Cold Weather",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Emma",
+    "tags": ["Fabric", "Winter"],
+    "minRead": 10,
+    "date": "2 June 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 6,
+    "title": "Streetwear Essentials Everyone Should Own",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Chris",
+    "tags": ["Streetwear", "Essentials"],
+    "minRead": 10,
+    "date": "5 June 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 7,
+    "title": "Why Neutral Colors Always Work",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Olivia",
+    "tags": ["Colors", "Fashion"],
+    "minRead": 10,
+    "date": "8 June 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 8,
+    "title": "Mixing Casual and Formal Outfits",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Andrew",
+    "tags": ["Casual", "Formal"],
+    "minRead": 10,
+    "date": "10 June 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 9,
+    "title": "Accessories That Elevate Any Look",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Natalie",
+    "tags": ["Accessories", "Style"],
+    "minRead": 10,
+    "date": "13 June 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 10,
+    "title": "Seasonal Fashion Mistakes to Avoid",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Ryan",
+    "tags": ["Fashion", "Mistakes"],
+    "minRead": 10,
+    "date": "15 June 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 11,
+    "title": "How to Build a Capsule Wardrobe",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Laura",
+    "tags": ["Wardrobe", "Minimalism"],
+    "minRead": 10,
+    "date": "18 June 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 12,
+    "title": "Comfortable Shoes for Everyday Wear",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Kevin",
+    "tags": ["Shoes", "Comfort"],
+    "minRead": 10,
+    "date": "20 June 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 13,
+    "title": "Why Fit Matters More Than Brand",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Isabella",
+    "tags": ["Fit", "Style"],
+    "minRead": 10,
+    "date": "22 June 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 14,
+    "title": "Sustainable Fashion: What You Need to Know",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Ethan",
+    "tags": ["Sustainable", "Fashion"],
+    "minRead": 10,
+    "date": "25 June 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  },
+  {
+    "id": 15,
+    "title": "Dressing Well on a Budget",
+    "subtitle": "Lorem ipsum dolor sit amet, consectur adispiscing elit.",
+    "author": "Mia",
+    "tags": ["Budget", "Fashion"],
+    "minRead": 10,
+    "date": "28 June 2023",
+    "list": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  }
+]

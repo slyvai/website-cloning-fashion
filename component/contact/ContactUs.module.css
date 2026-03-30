@@ -1,0 +1,109 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 5vw 10vw;
+}
+.contactInfo .backgroundGray {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    width: 30vw;
+    height: 40vw;
+    padding: 1.4vw;
+}
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.contactForm .title h1{
+    font-size: 2.4vw;
+    font-weight: 600;
+}
+.contactForm .title p{
+    font-size: 1vw;
+    margin-block: 1vw;
+}
+.contactForm form label {
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+.contactForm button {
+    width: 40%;
+    font-size: 1.2vw;
+    padding: 1vw 2vw;
+    letter-spacing: 0.1vw;
+    background-color: #3F1700;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+.formGroup input{
+    width: 20vw;
+    height: 2.3vw;
+    border: 0.1vw solid #787878;
+    margin-top: 1vw;
+    padding-left: 1vw;
+    margin-right: 2vw;
+    font-size: 1.2vw;
+}
+.formMessage textarea{
+    width: 96%;
+    height: 10vw;
+    border: 0.1vw solid #787878;
+    margin-top: 1vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    font-size: 1.2vw;
+}
+.formSubject input{
+    width: 96%;
+    height: 3vw;
+    border: 0.1vw solid #787878;
+    padding-left: 1vw;
+    margin-top: 1vw;
+    font-size: 1.2vw;
+}
+.inputForm {
+    display: flex;
+}
+.inputForm p, .formSubject p, .formMessage p {
+    color: red;
+}
+.formMessage, .formSubject {
+    display: flex;
+    flex-direction: column;
+}
+.backgroundGray .address h1, .contact h1, .openTime h1, .mediaSocial h1{
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+.backgroundGray .address p, .contact p, .openTime p {
+    font-size: 1vw;
+    margin-top: 1vw;
+}
+
+.iconSocial {
+    margin-top: 1vw;
+    display: flex;
+    gap: 1.3vw;
+    font-size: 1.3vw;
+}
+.maps iframe{
+    width: 100%;
+    height: 30vw;
+}
+.facebook, .instagram, .twitter, .youtube, .blogger {
+    background-color: #F5BD62;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5vw;
+    height: 2.5vw;
+}

@@ -1,0 +1,174 @@
+.productContainer {
+    margin: min(1vw, calc(1vh * 1.8)) min(4vw, calc(4vh * 1.8));
+    display: flex;
+    gap: min(2vw, calc(2vh * 1.8));
+}
+
+.textContainer {
+    margin-top: min(2vw, calc(2vh * 1.8));
+}
+
+.colors,
+.size {
+    display: flex;
+    gap: min(0.5vw, calc(0.5vh * 1.8));
+}
+
+.buttons {
+    display: flex;
+    gap: min(1vw, calc(1vh * 1.8));
+}
+
+.container :global(.ant-input-number) {
+    width: min(10vw, calc(10vh * 1.8));
+    height: min(4vw, calc(4vh * 1.8));
+    font-size: min(1vw, calc(1vh * 1.8));
+}
+
+.containerInfo {
+    display: flex;
+    gap: min(1.2vw, calc(1.2vh * 1.8));
+    flex-direction: column;
+}
+
+.lineContainer {
+    border-bottom: 1px solid #a8a8a8;
+    padding-top: min(2vw, calc(2vh * 1.8));
+}
+
+.iconWish {
+    border: 1px solid #787878;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: min(3vw, calc(3vh * 1.8));
+    height: min(3.5vw, calc(3.5vh * 1.8));
+    font-size: min(1.4vw, calc(1.4vh * 1.8));
+}
+
+.addCart button {
+    background: #3F1700;
+    color: #fff;
+    font-size: min(1vw, calc(1vh * 1.8));
+    padding: min(1.3vw, calc(1.3vh * 1.8)) min(2vw, calc(2vh * 1.8));
+    font-weight: 600;
+    border: none;
+}
+
+.buyNow button {
+    background: #F5BD62;
+    color: #000;
+    font-size: min(1vw, calc(1vh * 1.8));
+    padding: min(1.3vw, calc(1.3vh * 1.8)) min(2vw, calc(2vh * 1.8));
+    font-weight: 600;
+    border: none;
+}
+
+.dummyImg {
+    width: min(40vw, calc(40vh * 1.8));
+    height: auto;
+    background-color: #F6F6F6;
+}
+
+.productTitle {
+    display: flex;
+    flex-direction: column;
+    gap: min(0.7vw, calc(0.7vh * 1.8));
+    font-size: min(1vw, calc(1vh * 1.8));
+}
+
+.productTitle .category {
+    color: #787878;
+}
+
+.productTitle .price {
+    font-weight: 600;
+    font-size: min(1.5vw, calc(1.5vh * 1.8));
+}
+
+.price {
+    font-size: min(1.3vw, calc(1.3vh * 1.8));
+    font-weight: 500;
+    display: flex;
+    gap: min(1vw, calc(1vh * 1.8));
+}
+
+.priceDiscount {
+    font-weight: bold;
+}
+
+.priceFixed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.desc {
+    font-size: min(1.2vw, calc(1.2vh * 1.8));
+    margin: min(1vw, calc(1vh * 1.8)) 0;
+    color: #787878;
+    width: min(30vw, calc(30vh * 1.8));
+}
+
+.colorContainer,
+.sizeContainer {
+    margin: min(1vw, calc(1vh * 1.8)) 0;
+    display: flex;
+    flex-direction: column;
+    gap: min(0.8vw, calc(0.8vh * 1.8));
+}
+
+.selectSize span,
+.selectColor span {
+    font-weight: bold;
+}
+
+.selectSize,
+.selectColor {
+    font-size: min(1vw, calc(1vh * 1.8));
+}
+
+.bottomContainer {
+    display: flex;
+    flex-direction: column;
+    gap: min(0.5vw, calc(0.5vh * 1.8));
+    margin-top: min(2vw, calc(2vh * 1.8));
+}
+
+.stockKeep,
+.tags,
+.share {
+    display: flex;
+    align-items: center;
+    font-size: min(1vw, calc(1vh * 1.8));
+    gap: min(0.5vw, calc(0.5vh * 1.8));
+}
+
+.mediaSocial {
+    display: flex;
+    gap: min(1vw, calc(1vh * 1.8));
+    font-size: min(1.4vw, calc(1.4vh * 1.8));
+}
+
+.clear {
+    display: flex;
+    gap: min(1vw, calc(1vh * 1.8));
+}
+
+.clear button {
+    background: transparent;
+    border: none;
+    font-size: min(1.2vw, calc(1.2vh * 1.8));
+    color: #3F1700;
+    text-decoration: underline;
+}
+
+.clear :global(.anticon-close) {
+    font-size: min(0.8vw, calc(0.8vh * 1.8));
+}
+
+.inStock {
+    border: 1px solid #00a158;
+    background-color: #c8fde5;
+    padding: min(0.5vw, calc(0.5vh * 1.8));
+    color: #00a158;
+}

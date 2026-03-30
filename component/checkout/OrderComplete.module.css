@@ -1,0 +1,121 @@
+.orderComplete, .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vw;
+}
+.title {
+    font-size: 1vw;
+}
+.title p {
+    color: #888
+}
+.iconCompleted {
+    background-color: #F5BD62;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+    width: 4vw;
+    height: 4vw;
+}
+.iconCompleted :global(.anticon-check) {
+    font-size: 2vw;
+}
+.orderInformation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5BD62;
+    padding: 2vw 3vw;
+    margin: 2vw 0;
+    width: 90%;
+}
+.info .infoTitle {
+    font-weight: 500;
+    color: #4e4e4e;
+}
+.info .desc {
+    margin-top: 0.8vw;
+    font-size: 1vw;
+    font-weight: 600;
+}
+.downloadButton {
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    font-weight: 600;
+    background-color: #3F1700;
+    color: #fff;
+}
+.nameColorSize {
+    font-size: 1vw;
+}
+.nameColorSize .name {
+    font-weight: bold;
+}
+.colorSize {
+    display: flex;
+    gap: 2vw;
+    color: #787878;
+}
+.colorSize .line {
+    border-right: 1px solid #787878;
+    height: 1.3vw;
+    transform: translateX(-1vw);
+}
+.size {
+    transform: translateX(-2vw);
+}
+.summary {
+    border: 1px solid #888;
+}
+.titleSummary {
+    padding: 1.4vw;
+}
+.titleSummary h2 {
+    padding: 1vw 0;
+    border-bottom: 1px solid #888;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.productInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+    width: 90vw;
+}
+.dummyImg {
+    width: 4vw;
+    height: 4vw;
+    background-color: #d5d5d5;
+}
+.price {
+    font-size: 1vw;
+}
+.priceInfo {
+    font-size: 1vw;
+    padding: 1vw;
+}
+.shipping {
+    padding: 1vw 0;
+    border-top: 1px solid #888;
+}
+.shipping, .taxes, .total {
+    display: flex;
+    margin-bottom: 1vw;
+    justify-content: space-between;
+}
+.total {
+    padding: 1vw 0;
+    border-top: 1px solid #888;
+}
+.titleInfo {
+    font-weight: 600;
+    font-size: 1vw;
+}

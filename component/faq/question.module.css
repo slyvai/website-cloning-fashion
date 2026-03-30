@@ -1,0 +1,69 @@
+.contentContainer {
+    display: flex;
+}
+.selection {
+    margin: min(3.556vh, 2vw) min(3.556vh, 2vw);
+    display: flex;
+    flex-direction: column;
+    gap: min(1.778vh, 1vw);
+}
+.rightContent {
+    flex: 1;
+    width: 90%;
+}
+.selection button {
+    background-color: #fff;
+    border: 1px solid #a8a8a8;
+    padding: min(2.311vh, 1.3vw) min(26.667vh, 15vw) min(2.311vh, 1.3vw) min(1.778vh, 1vw);
+    text-align: left;
+    font-size: min(2.489vh, 1.4vw);
+    font-weight: bold;
+    cursor: pointer;
+}
+.selection button:hover {
+    background-color: #F5BD62;
+}
+.rightContent :global(.anticon-plus) {
+    font-size: min(2.133vh, 1.2vw) !important;
+}
+.rightContent :global(.anticon-minus) {
+    font-size: min(2.133vh, 1.2vw) !important;
+}
+.rightContent :global(.ant-collapse) {
+    margin: min(3.556vh, 2vw);
+    background : transparent;
+    border: none;
+}
+.rightContent :global(.ant-collapse-header) {
+    padding: min(2.667vh, 1.5vw) !important;
+    background: #ffffff;
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 550;
+    overflow: hidden;
+}
+
+.rightContent :global(.ant-collapse-content-box) {
+    word-break: break-word;
+    white-space: normal;
+}
+
+.rightContent :global(.ant-collapse-item-active .ant-collapse-header) {
+    background-color: #3F1700 !important;
+    color: #ffffff;
+}
+
+.rightContent :global(.ant-collapse-panel-active) {
+    background-color: #3F1700 !important;
+    color: #ffffff;
+}
+
+.rightContent :global(.ant-collapse-panel) {
+    transform: translateY(-31.5px);
+}
+
+.rightContent :global(.ant-collapse-body) {
+    font-size: min(1.778vh, 1vw);
+    padding: min(1.778vh, 1vw) min(3.556vh, 2vw) !important;
+    font-weight: 400;
+}

@@ -1,0 +1,120 @@
+.container {
+    margin: min(1.778vh, 1vw);
+}
+.orderHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5BD62;
+    padding: min(3.556vh, 2vw) min(5.333vh, 3vw);
+    margin: min(3.556vh, 2vw) 0 0 0;
+    width: 90%;
+}
+.orderHeader {
+    font-size: 1vw;
+}
+.productInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: min(1.778vh, 1vw);
+    width: 90%;
+    border: 1px solid #ccc;
+}
+.dummyImg {
+    width: min(7.111vh, 4vw);
+    height: min(7.111vh, 4vw);
+    background-color: #d5d5d5;
+}
+.price {
+    font-size: min(1.778vh, 1vw);
+}
+.priceInfo {
+    font-size: min(1.778vh, 1vw);
+    padding: min(1.778vh, 1vw);
+}
+.nameColorSize {
+    font-size: min(1.778vh, 1vw);
+}
+.nameColorSize .name {
+    font-weight: bold;
+}
+.colorSize {
+    display: flex;
+    gap: min(3.556vh, 2vw);
+    color: #787878;
+}
+.colorSize .line {
+    border-right: 1px solid #787878;
+    height: min(2.311vh, 1.3vw);
+    transform: translateX(min(-1.778vh, -1vw));
+}
+.lineQuantity {
+    border-right: 1px solid #787878;
+    height: min(2.311vh, 1.3vw);
+    transform: translateX(min(-3vw, -5.333vh));
+}
+.size {
+    transform: translateX(min(-2vw, -3.556vh));
+}
+.quantity {
+    transform: translateX(min(-4vw, -7.111vh));
+}
+.quantityContainer {
+    display: flex;
+}
+.containerInfo {
+    display: flex;
+    align-items: center;
+    gap: min(1.778vh, 1vw);
+}
+.tags {
+    border: 1px solid #ea9c1f;
+    color: #ff9d03;
+    background-color: #fff7ee;
+    padding: min(0.533vh, 0.3vw);
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 0 min(1.778vh, 1vw) min(1.778vh, 1vw);
+    border: 1px solid #ccc;
+    width: 90%;
+}
+.itemInfo {
+    margin-top: min(1.778vh, 1vw);
+    display: flex;
+    gap: min(0.533vh, 0.3vw);
+    align-items: center;
+    font-size: min(0.9vw, 1.6vh);
+}
+.buttonContainer {
+    margin-top: min(1.778vh, 1vw);
+    display: flex;
+    justify-content: space-between;
+}
+.buttonContainer button {
+    padding: min(1.778vh, 1vw);
+    font-size: min(1.778vh, 1vw);
+}
+.buttonStart {
+    display: flex;
+    gap: min(1.778vh, 1vw);
+}
+.buttonOrder button{
+    background-color: #3F1700;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+}
+.buttonInvoice button{
+    color: #3F1700;
+    padding: min(1.778vh, 1vw) min(3.556vh, 2vw);
+    border: 1px solid #3F1700;
+    background-color: transparent;
+}
+.buttonCancel button{
+    background-color: transparent;
+    border: none;
+    color: red;
+}

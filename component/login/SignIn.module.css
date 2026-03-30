@@ -1,0 +1,204 @@
+.signIn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #3F1700;
+    gap: min(2vw, calc(2vh * 1.8));
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.logo {
+    font-size: min(2vw, calc(2vh * 1.8));
+    font-weight: bold;
+}
+
+.formSignIn {
+    padding: min(9vw, calc(9vh * 1.8));
+}
+
+.title {
+    line-height: 1.5;
+}
+
+.title h1 {
+    margin-top: min(2vw, calc(2vh * 1.8));
+    font-size: min(1.8vw, calc(1.8vh * 1.8));
+}
+
+.desc p {
+    color: #888;
+    font-size: min(1vw, calc(1vh * 1.8));
+}
+
+.dummyImg {
+    position: relative;
+    z-index: 0;
+    transform: translateX(min(7vw, calc(7vh * 1.8)));
+    background-color: #ccc;
+    width: min(40vw, calc(40vh * 1.8));
+    height: min(55vw, calc(55vh * 1.8));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dummyImg img {
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.containerDesc {
+    position: absolute;
+    bottom: 3%;
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(10px);
+    width: min(36vw, calc(36vh * 1.8));
+    height: min(15vw, calc(15vh * 1.8));
+    padding: min(2vw, calc(2vh * 1.8));
+    font-size: min(1.3vw, calc(1.3vh * 1.8));
+    color: #fff;
+}
+
+.text {
+    margin-top: min(1.2vw, calc(1.2vh * 1.8));
+    display: flex;
+    flex-direction: column;
+}
+
+.nameText {
+    font-weight: bold;
+}
+
+.slideImage {
+    flex-shrink: 1;
+}
+
+.form label {
+    font-weight: bold;
+    font-size: min(1.2vw, calc(1.2vh * 1.8));
+}
+
+.form input {
+    border: 1px solid #888;
+    height: min(3vw, calc(3vh * 1.8));
+    font-size: min(1.1vw, calc(1.1vh * 1.8));
+    margin-top: min(0.5vw, calc(0.5vh * 1.8));
+    width: min(31vw, calc(31vh * 1.8));
+}
+
+.column {
+    margin-top: min(1vw, calc(1vh * 1.8));
+    display: flex;
+    gap: min(1vw, calc(1vh * 1.8));
+    flex-direction: column;
+}
+
+.row .name,
+.column .email,
+.column .password {
+    display: flex;
+    flex-direction: column;
+}
+
+.agree {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forgotPassword {
+    transform: translateY(min(5px, 0.5vh));
+    font-size: min(1vw, calc(1vh * 1.8));
+}
+
+.forgotPassword a {
+    color: #3F1700;
+    font-weight: bold;
+}
+
+.agree label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    margin-top: min(1vw, calc(1vh * 1.8));
+    font-size: min(1.1vw, calc(1.1vh * 1.8));
+}
+
+.agree .checkbox {
+    text-align: center;
+    display: flex;
+    gap: min(0.5vw, calc(0.5vh * 1.8));
+}
+
+.agree label a {
+    color: #3F1700;
+}
+
+.agree input[type="checkbox"] {
+    width: min(1.3vw, calc(1.3vh * 1.8));
+    height: min(1.3vw, calc(1.3vh * 1.8));
+    accent-color: #3F1700;
+    transform: translateY(min(-10px, -1vh));
+}
+
+.form button {
+    width: 100%;
+    font-size: min(1.2vw, calc(1.2vh * 1.8));
+    margin-top: min(1vw, calc(1vh * 1.8));
+    padding: min(1vw, calc(1vh * 1.8)) min(2vw, calc(2vh * 1.8));
+    background-color: #3F1700;
+    font-weight: 600;
+    color: #fff;
+}
+
+.buttonGoogle button {
+    width: 100%;
+    font-size: min(1.2vw, calc(1.2vh * 1.8));
+    margin-top: min(1vw, calc(1vh * 1.8));
+    padding: min(1vw, calc(1vh * 1.8)) min(2vw, calc(2vh * 1.8));
+    background-color: #fff;
+    font-weight: 500;
+    display: flex;
+    gap: min(1vw, calc(1vh * 1.8));
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #888;
+    color: #000;
+}
+
+.login {
+    font-size: min(1vw, calc(1vh * 1.8));
+    margin-top: min(1vw, calc(1vh * 1.8));
+    font-weight: 600;
+    text-align: center;
+}
+
+.login a {
+    color: #3F1700;
+}
+
+.errorText {
+    color: red;
+}
+
+:global(.ant-divider .ant-divider-rail) {
+    border-block-start: 1px solid #9f9f9f !important;
+}
+
+:global(.ant-divider-inner-text) {
+    font-size: min(1vw, calc(1vh * 1.8));
+    color: #6c6c6c !important;
+}
+
+:global(.swiper-pagination) {
+    transform: translateX(45px) !important;
+}
+
+:global(.swiper-pagination-bullet) {
+    width: min(8.64vw, calc(8.64vh * 1.8)) !important;
+    height: min(0.6vw, calc(0.6vh * 1.8)) !important;
+    background-color: #F5BD62 !important;
+    border-radius: 0 !important;
+}

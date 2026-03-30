@@ -1,0 +1,204 @@
+.signUp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #3F1700;
+    gap: 2vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+.logo {
+    font-size: 2vw;
+    font-weight: bold;
+}
+.formSignUp {
+    padding: 9vw;
+}
+.title {
+    line-height: 1.5;
+}
+.title h1 {
+    margin-top: 2vw;
+    font-size: 1.8vw;
+}
+.desc p {
+    color: #888;
+    font-size: 1vw;
+}
+.dummyImg {
+    position: relative;
+    z-index: 0;
+    transform: translateX(7vw);
+    background-color: #ccc;
+    width: 40vw;
+    height: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dummyImg img {
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+}
+.containerDesc {
+    position: absolute;
+    bottom: 3%;
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(10px);
+    width: 36vw;
+    height: 15vw;
+    padding: 2vw;
+    font-size: 1.3vw;
+    color: #fff;
+}
+.text {
+    margin-top: 1.2vw;
+    display: flex;
+    flex-direction: column;
+}
+.nameText {
+    font-weight: bold;
+}
+.slideImage {
+    flex-shrink: 1;
+}
+.form label {
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.form input, .form select {
+    border: 1px solid #888;
+    height: 3vw;
+    font-size: 1.1vw;
+    margin-top: 0.5vw;
+    width: 31vw;
+    background-color: transparent;
+}
+.column {
+    margin-top: 1vw;
+    display: flex;
+    gap: 1vw;
+    flex-direction: column;
+}
+.row .name, .column .email, .column .password {
+    display: flex;
+    flex-direction: column;
+}
+.agree {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.forgotPassword {
+    transform: translateY(5px);
+    font-size: 1vw;
+}
+.forgotPassword a {
+    color: #3F1700;
+    font-weight: bold;
+}
+.agree label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    margin-top: 1vw;
+    font-size: 1.1vw;
+}
+.agree .checkbox {
+    text-align: center;
+    display: flex;
+    gap: 0.5vw;
+}
+.agree label a {
+    color: #3F1700;
+}
+.agree input[type="checkbox"] {
+    width: 1.3vw;
+    height: 1.3vw;
+    accent-color: #3F1700;
+    transform: translateY(-10px);
+}
+.form button {
+    width: 100%;
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    padding: 1vw 2vw;
+    background-color: #3F1700;
+    font-weight: 600;
+    color: #fff;
+}
+.login {
+    font-size: 1vw;
+    margin-top: 1vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+.avatarProfile {
+    margin: 1vw 0;
+}
+.avatarWrapper {
+    position: relative;
+    z-index: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.avatarWrapper img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.overlay p, .overlay b {
+    font-size: 1vw;
+}
+.overlay p {
+    color: #888;
+}
+.genderOptions {
+    display: flex;
+    flex-direction: column;
+}
+.login a {
+    color: #3F1700;
+}
+.errorText {
+    color: red;
+}
+:global(.ant-divider .ant-divider-rail) {
+    border-block-start: 1px solid #9f9f9f !important;
+}
+:global(.ant-divider-inner-text) {
+    font-size: 1vw;
+    color: #6c6c6c !important;
+}
+:global(.ant-upload-drag) {
+    border: 2px dashed #ccc !important;
+    background-color: transparent !important;
+    width: 30% !important;
+    height: 10vw !important;
+}
+:global(.swiper-pagination) {
+    transform: translateX(45px) !important;
+}
+:global(.swiper-pagination-bullet) {
+    width: 8.64vw !important;
+    height: 0.6vw !important;
+    background-color: #F5BD62 !important;
+    border-radius: 0 !important;
+}

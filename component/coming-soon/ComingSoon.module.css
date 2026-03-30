@@ -1,0 +1,101 @@
+.comingSoon img{
+    width: 100%;
+    height: min(56.25vw, 100vh);
+    object-fit: cover;
+    position: relative;
+    top: min(1.6vh, 0.9vw);
+    z-index: 1;
+}
+.whiteContainer {
+    background-color: #fff;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: min(8.889vh, 5vw);
+    top: 15%;
+    transform: translateX(-50%);
+    z-index: 2;
+    gap: min(1.778vh, 1vw);
+}
+.whiteContainer h1 {
+    font-size: min(6.222vh, 3.5vw);
+}
+.countdown {
+    display: flex;
+}
+.countdown .number {
+    font-weight: bold;
+    font-size: min(3.911vh, 2.2vw);
+}
+.countdown .label {
+    font-size: min(3.022vh, 1.7vw);
+}
+.countItem {
+    border-right: 1px solid #888;
+    padding: 0 min(4.089vh, 2.3vw);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.countItem:last-child{
+    border: none;
+}
+.textContainer h1 {
+    margin-bottom: min(3.556vh, 2vw);
+    color: #3F1700;
+}
+.inputEmail {
+    display: flex;
+    border: 1px solid #888;
+    align-items: center;
+}
+.buttonContainer button {
+    font-size: min(1.778vh, 1vw);
+    padding: min(1.778vh, 1vw);
+    background-color: #3F1700;
+    color: #ffffff;
+    border: none;
+}
+.inputEmail input {
+    font-size: min(1.778vh, 1vw);
+    width: min(53.333vh, 30vw);
+    margin-left: min(1.778vh, 1vw);
+    height: min(3.733vh, 2.1vw);
+    border: none;
+}
+.labelEmail {
+    font-size:  min(1.778vh, 1vw);
+    margin-top: min(3.556vh, 2vw);
+    margin-bottom:  min(1.778vh, 1vw);
+}
+.iconSocial {
+    display: flex;
+    gap: min(1.778vh, 1vw);
+    margin-top: min(3.556vh, 2vw);
+    font-size: min(2.311vh, 1.3vw);
+}
+.facebook, .instagram, .twitter, .youtube, .blogger {
+    background-color: #F5BD62;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(5.333vh, 3vw);
+    height: min(5.333vh, 3vw);
+}
+.bottom {
+    font-size:  min(1.778vh, 1vw);
+    color: #888;
+    padding: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+.iconSocial :global(.anticon) {
+    font-size: min(2.667vh, 1.5vw);
+}

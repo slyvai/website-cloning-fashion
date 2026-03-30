@@ -1,0 +1,128 @@
+.section1 {
+    height: min(100vh, 56.25vw);
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: min(1.956vh, 1.1vw);
+    align-items: center;
+    padding: min(3.556vh, 2vw) min(14.222vh, 8vw);
+}
+
+.box, .payment, .headphones {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-block: min(1.778vh, 1vw);
+}
+
+.iconBox, .iconWallet, .iconHeadphones {
+    margin-right: min(3.556vh, 2vw);
+    font-size: min(5.333vh, 3vw);
+    position: relative;
+    margin-top: min(1.778vh, 1vw);
+    display: inline-block;
+    z-index: 1;
+}
+
+.iconBoxInner {
+    background-color: #F5BD62;
+    border-radius: 50%;
+    padding: min(2.311vh, 1.3vw);
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+    z-index: -1;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: min(3.556vh, 2vw);
+    grid-row-gap: 0;
+    padding: min(3.556vh, 2vw) min(17.778vh, 10vw);
+    height: min(96vh, 54vw);
+    overflow: hidden;
+}
+
+.gridContainer .textContainer ul li {
+    list-style: none;
+    margin-block: min(3.556vh, 2vw);
+    font-size: min(1.778vh, 1vw);
+}
+
+.gridContainer .textContainer {
+    padding: min(1.778vh, 1vw) min(3.556vh, 2vw);
+}
+
+.gridContainer .subtitle {
+    font-size: min(2.133vh, 1.2vw);
+    font-weight: bold;
+    background-color: #ffffff;
+    width: min(17.778vh, 10vw);
+    padding: min(0.356vh, 0.2vw) min(1.778vh, 1vw);
+    border-radius: min(1.778vh, 1vw);
+}
+
+.gridContainer .title {
+    font-size: min(2.133vh, 1.2vw);
+}
+
+.gridContainer .desc {
+    margin-block: min(1.778vh, 1vw);
+    font-size: min(1.778vh, 1vw);
+}
+
+.gridWoman {
+    grid-area: 1 / 1 / 6 / 4;
+    background-color: #F6F6F6;
+    position: relative;
+    overflow: hidden;
+}
+
+.gridWoman img {
+    position: absolute;
+    object-fit: cover;
+    bottom: 0;
+    width: 80%;
+    left: 30%;
+    height: auto;
+}
+
+.gridMan {
+    grid-area: 1 / 4 / 2 / 7;
+    background-color: #F6F6F6;
+    height: min(44.444vh, 25vw);
+    position: relative;
+    overflow: hidden;
+}
+
+.gridMan .imageContainer img {
+    width: 80%;
+    height: 100%;
+    left: 20%;
+    position: absolute;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.accessories {
+    grid-area: 3 / 4 / 3 / 7;
+    background-color: #F6F6F6;
+    position: relative;
+    overflow: hidden;
+}
+
+.accessories img {
+    position: absolute;
+    object-fit: cover;
+    bottom: 0;
+    width: 100%;
+    left: 30%;
+    height: 100%;
+}

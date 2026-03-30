@@ -1,0 +1,17 @@
+.textContainer {
+    background-color: #F6F6F6;
+    padding: min(8.889vh, 5vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: min(1.778vh, 1vw);
+}
+.textContainer h1 {
+    font-size: min(3.556vh, 2vw);
+    font-weight: 600;
+}
+.breadcrumb {
+    font-size: min(1.956vh, 1.1vw);
+    color: #000000 !important;
+}

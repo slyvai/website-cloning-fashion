@@ -1,0 +1,87 @@
+.section4 {
+    width: 100%;
+    height: min(80vh, 45vw);
+    margin: 0 min(17.778vh, 10vw);
+}
+
+.textContainer {
+    font-size: min(1.956vh, 1.1vw);
+}
+
+.desc {
+    font-size: min(1.6vh, 0.9vw);
+}
+
+.container {
+    display: flex;
+    gap: min(1.778vh, 1vw);
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.grid {
+    display: flex;
+    gap: min(1.778vh, 1vw);
+    margin-top: min(3.556vh, 2vw);
+}
+
+.productCard {
+    width: min(60.444vh, 34vw);
+    height: min(48vh, 27vw);
+    border: 1px solid #E5E5E5;
+    display: flex;
+}
+
+.textGrid {
+    margin: min(1.778vh, 1vw);
+    font-size: min(1.956vh, 1.1vw);
+}
+
+.dummyImg {
+    background-color: #F6F6F6;
+    width: min(32vh, 18vw);
+    height: min(44.444vh, 25vw);
+    margin: min(1.778vh, 1vw);
+}
+
+.variant {
+    color: #787878;
+}
+
+.rating {
+    font-size: min(2.133vh, 1.2vw);
+    font-weight: 600;
+    letter-spacing: min(0.178vh, 0.1vw);
+    margin-block: min(1.778vh, 1vw);
+}
+
+.price {
+    font-size: min(2.311vh, 1.3vw);
+    font-weight: 500;
+    margin-block: min(0.889vh, 0.5vw);
+}
+
+.products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.button {
+    margin-top: min(1.778vh, 1vw);
+}
+
+.button button {
+    font-size: min(1.778vh, 1vw);
+    padding: min(1.778vh, 1vw) 0;
+    background-color: #ffffff;
+    color: #3F1700;
+    border: none;
+    letter-spacing: min(0.178vh, 0.1vw);
+}
+
+.title {
+    margin-block: min(0.889vh, 0.5vw);
+}

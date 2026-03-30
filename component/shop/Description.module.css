@@ -1,0 +1,52 @@
+.tabButtons {
+    display: flex;
+    gap: min(8.889vh, 5vw);
+    justify-content: center;
+    align-items: center;
+    margin-top: min(5.333vh, 3vw);
+}
+.tabButtons button {
+    border: none;
+    background: transparent;
+    padding: min(1.778vh, 1vw) min(1.778vh, 1vw);
+    border-bottom: 3px solid transparent;
+    font-size: min(2.667vh, 1.5vw);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.activeTab {
+    color: #000;
+    font-weight: 600;
+    border-bottom: 2px solid #000 !important;
+    background: none;
+}
+.tabContent {
+    margin: min(1.778vh, 1vw) min(7.111vh, 4vw);
+}
+.tabContent p {
+    line-height: min(2.667vh, 1.5vw);
+}
+.desc {
+    font-size: min(1.778vh, 1vw);
+    line-height: min(2.311vh, 1.3vw);
+    display: flex;
+    flex-direction: column;
+    gap: min(2.489vh, 1.4vw);
+}
+.line {
+    border-bottom: 1px solid #a8a8a8;
+    margin: 0 min(7.111vh, 4vw);
+}
+.tabContent :global(.ant-table-content){
+    font-size: min(1.778vh, 1vw);
+    margin: min(3.556vh, 2vw) min(8.889vh, 5vw);
+}
+.tabContent :global(.ant-table-thead > tr > th){
+    background: #F5BD62;
+}
+.tabContent :global(.ant-table-thead > tr > th:first-child){
+    width: min(17.778vh, 10vw);
+}
+.tabContent :global(.ant-table-tbody tr:nth-child(even) td) {
+    background-color: #f4f4f4;
+}

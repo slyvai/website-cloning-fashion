@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    padding: min(3.703vh, 2.083vw);
+    background-color: #3F1700;
+    color: white;
+    border-bottom: 1px solid #ffe0cc;
+    gap: min(3.556vh, 2vw);
+    height: min(35vh, 19.688vw);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin: min(3.556vh, 2vw) min(12.444vh, 7vw);
+}
+.company nav a, .costumer nav a, .information nav a, .contact nav a{
+    color: #ffe0cc;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    font-size: min(1.6vh, 0.9vw);
+    margin-top: min(2.311vh, 1.3vw);
+}
+.company, .costumer, .information, .contact {
+    font-size: min(2.133vh, 1.2vw);
+    font-weight: bold;
+    margin-top: min(3.556vh, 2vw);
+}
+
+.logoFooter {
+    font-size: min(3.022vh, 1.7vw);
+    font-weight: bold;
+}
+
+.desc {
+    margin-block: min(2.133vh, 1.2vw);
+    color: #ffe0cc;
+    font-size: min(1.778vh, 1vw);
+    line-height: min(2.311vh, 1.3vw);
+}
+
+.iconSocial {
+    display: flex;
+    gap: min(1.778vh, 1vw);
+    font-size: min(2.311vh, 1.3vw);
+}
+
+.bottom {
+    font-size: min(1.778vh, 1vw);
+    background-color: #3F1700;
+    color: #fff;
+    padding: min(5.556vh, 3.125vw);
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright, .itemBottom{
+    margin-left: min(8.889vh, 5vw);
+}
+
+.itemBottom{
+    display: flex;
+    gap: min(1.778vh, 1vw);
+}
+
+.language {
+    border-right: 1px solid #fff;
+    padding-right: min(1.778vh, 1vw);
+}
+
+.facebook, .instagram, .twitter, .youtube, .blogger {
+    background-color: #704d32;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(4.444vh, 2.5vw);
+    height: min(4.444vh, 2.5vw);
+}

@@ -1,0 +1,124 @@
+.avatarWrapper {
+    margin: min(1.778vh, 1vw);
+}
+
+.imageContainer {
+    position: relative;
+    border-radius: 50%;
+    background-color: transparent;
+    height: min(17.778vh, 10vw);
+    width: min(17.778vh, 10vw);
+}
+
+.imageContainer img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatarUpload {
+    position: relative;
+    height: min(17.778vh, 10vw);
+    width: min(17.778vh, 10vw);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.placeholder {
+    position: relative;
+    width: min(17.778vh, 10vw);
+    height: min(17.778vh, 10vw);
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerOverlay {
+    position: absolute;
+    z-index: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    height: min(5.867vh, 3.3vw);
+    width: min(5.867vh, 3.3vw);
+    bottom: 0;
+    right: 0;
+}
+
+.overlay {
+    background-color: #3F1700;
+    border-radius: 50%;
+    height: min(5.333vh, 3vw);
+    width: min(5.333vh, 3vw);
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: min(0.533vh, 0.3vw);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    gap: min(1.778vh, 1vw);
+}
+
+.column {
+    margin-top: min(2.311vh, 1.3vw);
+    display: flex;
+    flex-direction: column;
+    gap: min(2.311vh, 1.3vw);
+}
+
+.genderOptions {
+    margin: min(2.311vh, 1.3vw) 0;
+}
+
+.column input, .genderOptions select {
+    width: 62.3%;
+}
+
+.form label {
+    font-size: min(2.133vh, 1.2vw);
+    font-weight: 600;
+}
+
+.row input {
+    width: min(35.556vh, 20vw);
+    font-size: min(1.778vh, 1vw);
+}
+
+.form input, .form select {
+    border: 1px solid #888;
+    height: min(6.222vh, 3.5vw);
+    background: transparent;
+    font-size: min(1.778vh, 1vw);
+}
+
+.errorText {
+    color: red;
+}
+
+.form button {
+    padding: min(1.778vh, 1vw);
+    width: min(21.333vh, 12vw);
+    background-color: #3F1700;
+    font-size: min(1.778vh, 1vw);
+    font-weight: bold;
+    color: #fff;
+}

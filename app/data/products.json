@@ -1,0 +1,1676 @@
+[
+  {
+    "id": 1,
+    "sku": "WOM-COT-001",
+    "name": "Trendy Brown Coat",
+    "price": 75.0,
+    "rating": 4.8,
+    "review": 245,
+    "category": "Women",
+    "discount": 20,
+    "stock": "Instock",
+    "subCategory": "Jackets & Coats",
+    "tags": [
+      "coat",
+      "autumn",
+      "outerwear",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A perfect coat for chilly autumn days.",
+      "material": "cotton",
+      "country": "USA",
+      "brand": "KD Design",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "sku": "WOM-DRS-002",
+    "name": "Elegant Floral Dress",
+    "price": 55.0,
+    "rating": 4.6,
+    "discount": 25,
+    "stock": "Instock",
+    "review": 189,
+    "category": "Women",
+    "subCategory": "Dresses",
+    "tags": [
+      "dress",
+      "floral",
+      "summer",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Light and breezy floral dress for summer.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Perfect for casual outings and beach days.",
+      "material": "linen",
+      "country": "France",
+      "brand": "Belle Mode",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "sku": "WOM-BLS-003",
+    "name": "Classic White Blouse",
+    "price": 35.0,
+    "rating": 4.5,
+    "discount": 15,
+    "stock": "Instock",
+    "review": 312,
+    "category": "Women",
+    "subCategory": "T-Shirts and Blouses",
+    "tags": [
+      "blouse",
+      "classic",
+      "women",
+      "office"
+    ],
+    "details": {
+      "sub-desc": "Timeless white blouse for every occasion.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A wardrobe staple that pairs with anything.",
+      "material": "silk",
+      "country": "Italy",
+      "brand": "Softa",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "sku": "WOM-JNS-004",
+    "name": "Slim Fit Jeans",
+    "price": 60.0,
+    "rating": 4.7,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 420,
+    "category": "Women",
+    "subCategory": "Jeans",
+    "tags": [
+      "jeans",
+      "slim-fit",
+      "denim",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Comfortable slim fit jeans for everyday wear.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Designed for comfort and style throughout the day.",
+      "material": "denim",
+      "country": "USA",
+      "brand": "DenimCo",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "sku": "WOM-KNT-005",
+    "name": "Knit Cardigan",
+    "price": 45.0,
+    "rating": 4.4,
+    "discount": 25,
+    "stock": "Instock",
+    "review": 167,
+    "category": "Women",
+    "subCategory": "Knit",
+    "tags": [
+      "cardigan",
+      "knit",
+      "cozy",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Cozy knit cardigan for cool evenings.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Soft and warm, perfect for layering.",
+      "material": "wool",
+      "country": "UK",
+      "brand": "WoolHouse",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "sku": "WOM-SKT-006",
+    "name": "Flowy Maxi Skirt",
+    "price": 48.0,
+    "rating": 4.5,
+    "discount": 15,
+    "stock": "Instock",
+    "review": 203,
+    "category": "Women",
+    "subCategory": "Skirts",
+    "tags": [
+      "skirt",
+      "maxi",
+      "elegant",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Elegant maxi skirt for effortless style.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A versatile skirt that transitions from day to night.",
+      "material": "chiffon",
+      "country": "France",
+      "brand": "Belle Mode",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "sku": "WOM-DRS-007",
+    "name": "Satin Wrap Dress",
+    "price": 68.0,
+    "rating": 4.7,
+    "discount": 10,
+    "stock": "Instock",
+    "review": 178,
+    "category": "Women",
+    "subCategory": "Dresses",
+    "tags": [
+      "dress",
+      "satin",
+      "wrap",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Luxurious satin wrap dress for special occasions.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Flattering silhouette perfect for dinner dates.",
+      "material": "satin",
+      "country": "Italy",
+      "brand": "Softa",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "sku": "WOM-HOD-008",
+    "name": "Oversized Hoodie",
+    "price": 42.0,
+    "discount": 20,
+    "stock": "Instock",
+    "rating": 4.3,
+    "review": 456,
+    "category": "Women",
+    "subCategory": "Hoodies",
+    "tags": [
+      "hoodie",
+      "oversized",
+      "casual",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Super comfy oversized hoodie for lounging.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Perfect for lazy days and casual outings.",
+      "material": "fleece",
+      "country": "USA",
+      "brand": "UrbanWear",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "sku": "WOM-BLZ-009",
+    "name": "Tailored Blazer",
+    "price": 85.0,
+    "rating": 4.8,
+    "stock": "Instock",
+    "discount": 20,
+    "review": 134,
+    "category": "Women",
+    "subCategory": "Blazers",
+    "tags": [
+      "blazer",
+      "tailored",
+      "professional",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Sharp tailored blazer for a polished look.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Professional and stylish for office or evening wear.",
+      "material": "polyester blend",
+      "country": "Italy",
+      "brand": "KD Design",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "sku": "WOM-ACT-010",
+    "name": "High Waist Leggings",
+    "price": 32.0,
+    "rating": 4.6,
+    "discount": 25,
+    "stock": "Instock",
+    "review": 589,
+    "category": "Women",
+    "subCategory": "Activewear",
+    "tags": [
+      "leggings",
+      "activewear",
+      "workout",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Stretchy high waist leggings for workouts.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Moisture-wicking fabric for all-day comfort.",
+      "material": "spandex",
+      "country": "USA",
+      "brand": "ActiveFit",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "sku": "WOM-TOP-011",
+    "name": "Linen Summer Top",
+    "price": 28.0,
+    "rating": 4.4,
+    "discount": 15,
+    "stock": "Instock",
+    "review": 267,
+    "category": "Women",
+    "subCategory": "T-Shirts and Blouses",
+    "tags": [
+      "top",
+      "linen",
+      "summer",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Breathable linen top for warm weather.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Light and airy for hot summer days.",
+      "material": "linen",
+      "country": "Spain",
+      "brand": "Softa",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "sku": "WOM-JKT-012",
+    "name": "Denim Jacket",
+    "price": 72.0,
+    "rating": 4.7,
+    "discount": 15,
+    "stock": "Instock",
+    "review": 341,
+    "category": "Women",
+    "subCategory": "Jackets & Coats",
+    "tags": [
+      "jacket",
+      "denim",
+      "classic",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Classic denim jacket for layering.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A timeless wardrobe staple for any season.",
+      "material": "denim",
+      "country": "USA",
+      "brand": "DenimCo",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "sku": "WOM-SLP-013",
+    "name": "Silk Pajama Set",
+    "price": 90.0,
+    "rating": 4.9,
+    "discount": 25,
+    "stock": "Instock",
+    "review": 112,
+    "category": "Women",
+    "subCategory": "Sleepwear",
+    "tags": [
+      "pajama",
+      "silk",
+      "sleepwear",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Luxurious silk pajama set for restful nights.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Smooth and breathable for a comfortable sleep.",
+      "material": "silk",
+      "country": "China",
+      "brand": "Softa",
+      "color": [
+        "White",
+        "Green",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "sku": "WOM-TRS-014",
+    "name": "Wide Leg Trousers",
+    "price": 58.0,
+    "rating": 4.5,
+    "discount": 25,
+    "stock": "Instock",
+    "review": 223,
+    "category": "Women",
+    "subCategory": "Trousers",
+    "tags": [
+      "trousers",
+      "wide-leg",
+      "chic",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Chic wide leg trousers for a modern silhouette.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Comfortable and stylish for office or casual wear.",
+      "material": "crepe",
+      "country": "France",
+      "brand": "Belle Mode",
+      "color": [
+        "Brown",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "sku": "WOM-BLS-015",
+    "name": "Ruffle Sleeve Blouse",
+    "price": 38.0,
+    "rating": 4.3,
+    "discount": 15,
+    "stock": "Instock",
+    "review": 158,
+    "category": "Women",
+    "subCategory": "T-Shirts and Blouses",
+    "tags": [
+      "blouse",
+      "ruffle",
+      "feminine",
+      "women"
+    ],
+    "details": {
+      "sub-desc": "Feminine ruffle sleeve blouse for a soft look.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elegant and playful for any casual occasion.",
+      "material": "polyester",
+      "country": "South Korea",
+      "brand": "Belle Mode",
+      "color": [
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "sku": "MEN-BLZ-016",
+    "name": "Formal Black Blazer",
+    "price": 95.0,
+    "rating": 4.9,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 298,
+    "category": "Men",
+    "subCategory": "Blazers",
+    "tags": [
+      "blazer",
+      "formal",
+      "men",
+      "professional"
+    ],
+    "details": {
+      "sub-desc": "Sharp formal blazer for professional settings.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tailored for a clean, professional look.",
+      "material": "polyester",
+      "country": "Italy",
+      "brand": "GentStyle",
+      "color": [
+        "Brown",
+        "White",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "sku": "MEN-TSH-017",
+    "name": "Casual Striped T-Shirt",
+    "price": 25.0,
+    "rating": 4.3,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 534,
+    "category": "Men",
+    "subCategory": "T-Shirts and Shirts",
+    "tags": [
+      "t-shirt",
+      "striped",
+      "casual",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Relaxed striped tee for casual days.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A go-to tee for laid-back weekends.",
+      "material": "cotton",
+      "country": "USA",
+      "brand": "UrbanWear",
+      "color": [
+        "Brown",
+        "White",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "sku": "MEN-JKT-018",
+    "name": "Winter Puffer Jacket",
+    "price": 120.0,
+    "rating": 4.7,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 211,
+    "category": "Men",
+    "subCategory": "Jackets & Coats",
+    "tags": [
+      "jacket",
+      "puffer",
+      "winter",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Warm puffer jacket for cold winters.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Built to keep you warm in the harshest winters.",
+      "material": "nylon",
+      "country": "Canada",
+      "brand": "NorthEdge",
+      "color": [
+        "Brown",
+        "Green",
+        "Red"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "sku": "MEN-JNS-019",
+    "name": "Straight Leg Jeans",
+    "price": 65.0,
+    "rating": 4.5,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 378,
+    "category": "Men",
+    "subCategory": "Jeans",
+    "tags": [
+      "jeans",
+      "straight-leg",
+      "denim",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Classic straight leg jeans for a clean look.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Versatile jeans that work for any casual occasion.",
+      "material": "denim",
+      "country": "USA",
+      "brand": "DenimCo",
+      "color": [
+        "White",
+        "Green"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "sku": "MEN-SHT-020",
+    "name": "Oxford Button Shirt",
+    "price": 50.0,
+    "rating": 4.6,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 143,
+    "category": "Men",
+    "subCategory": "T-Shirts and Shirts",
+    "tags": [
+      "shirt",
+      "oxford",
+      "button-up",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Classic oxford shirt for smart casual wear.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A versatile shirt that transitions from office to evening.",
+      "material": "cotton",
+      "country": "UK",
+      "brand": "GentStyle",
+      "color": [
+        "Brown",
+        "Green",
+        "Red"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "sku": "MEN-TRS-021",
+    "name": "Slim Chino Pants",
+    "price": 55.0,
+    "rating": 4.5,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 312,
+    "category": "Men",
+    "subCategory": "Trousers",
+    "tags": [
+      "chino",
+      "slim-fit",
+      "trousers",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Smart slim chino pants for casual and semi-formal wear.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A versatile trouser for the modern man.",
+      "material": "cotton twill",
+      "country": "UK",
+      "brand": "GentStyle",
+      "color": [
+        "Brown",
+        "Green"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "sku": "MEN-HOD-022",
+    "name": "Graphic Print Hoodie",
+    "price": 48.0,
+    "rating": 4.4,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 421,
+    "category": "Men",
+    "subCategory": "Hoodies",
+    "tags": [
+      "hoodie",
+      "graphic",
+      "streetwear",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Bold graphic hoodie for streetwear style.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Statement piece for casual everyday looks.",
+      "material": "fleece",
+      "country": "USA",
+      "brand": "UrbanWear",
+      "color": [
+        "White",
+        "Green"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "sku": "MEN-SHT-023",
+    "name": "Linen Summer Shirt",
+    "price": 42.0,
+    "rating": 4.6,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 267,
+    "category": "Men",
+    "subCategory": "T-Shirts and Shirts",
+    "tags": [
+      "shirt",
+      "linen",
+      "summer",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Breathable linen shirt for hot days.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Light and comfortable for summer travels.",
+      "material": "linen",
+      "country": "Spain",
+      "brand": "GentStyle",
+      "color": [
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 24,
+    "sku": "MEN-JKT-024",
+    "name": "Leather Biker Jacket",
+    "price": 145.0,
+    "rating": 4.8,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 189,
+    "category": "Men",
+    "subCategory": "Jackets & Coats",
+    "tags": [
+      "jacket",
+      "leather",
+      "biker",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Edgy leather biker jacket for bold style.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Durable and stylish for any casual occasion.",
+      "material": "genuine leather",
+      "country": "Italy",
+      "brand": "NorthEdge",
+      "color": [
+        "Brown",
+        "White",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 25,
+    "sku": "MEN-ACT-025",
+    "name": "Athletic Jogger Pants",
+    "price": 38.0,
+    "rating": 4.5,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 503,
+    "category": "Men",
+    "subCategory": "Activewear",
+    "tags": [
+      "jogger",
+      "activewear",
+      "workout",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Comfortable jogger pants for workouts and leisure.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Flexible and breathable for active lifestyles.",
+      "material": "polyester",
+      "country": "USA",
+      "brand": "ActiveFit",
+      "color": [
+        "Brown",
+        "Green",
+        "Red"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "sku": "MEN-KNT-026",
+    "name": "Turtleneck Sweater",
+    "price": 62.0,
+    "rating": 4.7,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 234,
+    "category": "Men",
+    "subCategory": "Knit",
+    "tags": [
+      "sweater",
+      "turtleneck",
+      "knit",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Warm turtleneck sweater for cold months.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A classic layering piece for autumn and winter.",
+      "material": "merino wool",
+      "country": "UK",
+      "brand": "WoolHouse",
+      "color": [
+        "Brown",
+        "White",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "sku": "MEN-SHO-027",
+    "name": "Cargo Shorts",
+    "price": 35.0,
+    "rating": 4.3,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 398,
+    "category": "Men",
+    "subCategory": "Shorts",
+    "tags": [
+      "shorts",
+      "cargo",
+      "outdoor",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Practical cargo shorts for outdoor adventures.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Multiple pockets for utility and everyday use.",
+      "material": "cotton",
+      "country": "USA",
+      "brand": "UrbanWear",
+      "color": [
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "sku": "MEN-SUT-028",
+    "name": "Slim Fit Suit",
+    "price": 199.0,
+    "rating": 4.9,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 156,
+    "category": "Men",
+    "subCategory": "Suits",
+    "tags": [
+      "suit",
+      "slim-fit",
+      "formal",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Premium slim fit suit for formal occasions.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Expertly tailored for a sharp, modern silhouette.",
+      "material": "wool blend",
+      "country": "Italy",
+      "brand": "GentStyle",
+      "color": [
+        "Brown",
+        "White",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "sku": "MEN-PLO-029",
+    "name": "Polo Shirt",
+    "price": 40.0,
+    "rating": 4.6,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 445,
+    "category": "Men",
+    "subCategory": "T-Shirts and Shirts",
+    "tags": [
+      "polo",
+      "shirt",
+      "smart-casual",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Classic polo shirt for smart casual looks.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A timeless piece that pairs with jeans or chinos.",
+      "material": "pique cotton",
+      "country": "USA",
+      "brand": "GentStyle",
+      "color": [
+        "White",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "XXXL"
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "sku": "MEN-JKT-030",
+    "name": "Denim Trucker Jacket",
+    "price": 78.0,
+    "rating": 4.5,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 287,
+    "category": "Men",
+    "subCategory": "Jackets & Coats",
+    "tags": [
+      "jacket",
+      "denim",
+      "trucker",
+      "men"
+    ],
+    "details": {
+      "sub-desc": "Iconic denim trucker jacket for casual style.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A rugged classic that never goes out of style.",
+      "material": "denim",
+      "country": "USA",
+      "brand": "DenimCo",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Red"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "sku": "ACC-HBG-031",
+    "name": "Leather Tote Handbag",
+    "price": 89.0,
+    "rating": 4.8,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 302,
+    "category": "Accessories",
+    "subCategory": "Handbags",
+    "tags": [
+      "handbag",
+      "tote",
+      "leather",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Spacious leather tote for daily use.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Roomy and stylish, perfect for work or shopping.",
+      "material": "leather",
+      "country": "Italy",
+      "brand": "LuxBag",
+      "color": [
+        "Brown",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "sku": "ACC-WTC-032",
+    "name": "Classic Analog Watch",
+    "price": 150.0,
+    "rating": 4.9,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 415,
+    "category": "Accessories",
+    "subCategory": "Watches",
+    "tags": [
+      "watch",
+      "analog",
+      "classic",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Timeless analog watch for every wrist.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elegant design that suits both formal and casual outfits.",
+      "material": "stainless steel",
+      "country": "Switzerland",
+      "brand": "TimeCraft",
+      "color": [
+        "Brown",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "sku": "ACC-SGL-033",
+    "name": "Aviator Sunglasses",
+    "price": 40.0,
+    "rating": 4.6,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 287,
+    "category": "Accessories",
+    "subCategory": "Sunglasses",
+    "tags": [
+      "sunglasses",
+      "aviator",
+      "UV-protection",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Iconic aviator sunglasses with UV protection.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A timeless style that suits every face shape.",
+      "material": "metal frame",
+      "country": "USA",
+      "brand": "SunShade",
+      "color": [
+        "Orange",
+        "White",
+        "Green",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "sku": "ACC-HAT-034",
+    "name": "Straw Sun Hat",
+    "price": 28.0,
+    "rating": 4.4,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 196,
+    "category": "Accessories",
+    "subCategory": "Hat",
+    "tags": [
+      "hat",
+      "straw",
+      "sun",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Breezy straw hat for sunny days.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lightweight and stylish sun protection for beach days.",
+      "material": "straw",
+      "country": "Mexico",
+      "brand": "SunStyle",
+      "color": [
+        "Brown",
+        "White",
+        "Green"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "sku": "ACC-HBG-035",
+    "name": "Mini Crossbody Bag",
+    "price": 55.0,
+    "rating": 4.7,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 223,
+    "category": "Accessories",
+    "subCategory": "Handbags",
+    "tags": [
+      "bag",
+      "crossbody",
+      "mini",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Compact crossbody bag for on-the-go style.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Perfect size for essentials with an adjustable strap.",
+      "material": "faux leather",
+      "country": "South Korea",
+      "brand": "LuxBag",
+      "color": [
+        "Green",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "sku": "ACC-SCF-036",
+    "name": "Silk Scarf",
+    "price": 35.0,
+    "rating": 4.6,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 178,
+    "category": "Accessories",
+    "subCategory": "Scarves",
+    "tags": [
+      "scarf",
+      "silk",
+      "elegant",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Elegant silk scarf for styling versatility.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Wear it as a headband, neck scarf, or bag accessory.",
+      "material": "silk",
+      "country": "France",
+      "brand": "Belle Mode",
+      "color": [
+        "Brown",
+        "White",
+        "Red"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "sku": "ACC-BLT-037",
+    "name": "Leather Belt",
+    "price": 32.0,
+    "rating": 4.7,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 341,
+    "category": "Accessories",
+    "subCategory": "Belts",
+    "tags": [
+      "belt",
+      "leather",
+      "classic",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Classic leather belt for a polished finish.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Durable and stylish for both casual and formal wear.",
+      "material": "genuine leather",
+      "country": "Italy",
+      "brand": "GentStyle",
+      "color": [
+        "Brown",
+        "Black",
+        "Grey"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "sku": "ACC-JWL-038",
+    "name": "Pearl Necklace",
+    "price": 65.0,
+    "rating": 4.8,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 145,
+    "category": "Accessories",
+    "subCategory": "Jewelry",
+    "tags": [
+      "necklace",
+      "pearl",
+      "jewelry",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Timeless pearl necklace for elegant occasions.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. A classic piece that elevates any outfit.",
+      "material": "freshwater pearl",
+      "country": "Japan",
+      "brand": "LuxBag",
+      "color": [
+        "Pink",
+        "White"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "sku": "ACC-WTC-039",
+    "name": "Smart Digital Watch",
+    "price": 199.0,
+    "rating": 4.9,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 523,
+    "category": "Accessories",
+    "subCategory": "Watches",
+    "tags": [
+      "watch",
+      "smart",
+      "digital",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Feature-packed smart watch for modern life.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Track fitness, notifications, and more on your wrist.",
+      "material": "aluminum",
+      "country": "USA",
+      "brand": "TimeCraft",
+      "color": [
+        "White",
+        "Green",
+        "Blue",
+        "Azure"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "sku": "ACC-BAG-040",
+    "name": "Canvas Backpack",
+    "price": 72.0,
+    "rating": 4.6,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 389,
+    "category": "Accessories",
+    "subCategory": "Bags",
+    "tags": [
+      "backpack",
+      "canvas",
+      "everyday",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Durable canvas backpack for everyday adventures.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Multiple compartments for organized storage.",
+      "material": "canvas",
+      "country": "USA",
+      "brand": "UrbanWear",
+      "color": [
+        "Brown",
+        "White",
+        "Green",
+        "Pink"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "sku": "ACC-SGL-041",
+    "name": "Cat Eye Sunglasses",
+    "price": 38.0,
+    "rating": 4.5,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 212,
+    "category": "Accessories",
+    "subCategory": "Sunglasses",
+    "tags": [
+      "sunglasses",
+      "cat-eye",
+      "retro",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Retro cat eye sunglasses for a bold look.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. UV400 protection with a vintage flair.",
+      "material": "acetate frame",
+      "country": "Italy",
+      "brand": "SunShade",
+      "color": [
+        "Plum",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "sku": "ACC-HAT-042",
+    "name": "Wool Beanie",
+    "price": 22.0,
+    "rating": 4.4,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 298,
+    "category": "Accessories",
+    "subCategory": "Hat",
+    "tags": [
+      "beanie",
+      "wool",
+      "winter",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Cozy wool beanie for cold weather.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Warm and stylish for winter days.",
+      "material": "wool",
+      "country": "UK",
+      "brand": "WoolHouse",
+      "color": [
+        "Brown",
+        "Pink",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 43,
+    "sku": "ACC-JWL-043",
+    "name": "Gold Hoop Earrings",
+    "price": 45.0,
+    "rating": 4.7,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 167,
+    "category": "Accessories",
+    "subCategory": "Jewelry",
+    "tags": [
+      "earrings",
+      "hoop",
+      "gold",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Classic gold hoop earrings for everyday glam.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lightweight and versatile for any occasion.",
+      "material": "18k gold plated",
+      "country": "Italy",
+      "brand": "LuxBag",
+      "color": [
+        "Brown",
+        "White",
+        "Pink"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 44,
+    "sku": "ACC-HBG-044",
+    "name": "Suede Clutch Bag",
+    "price": 68.0,
+    "rating": 4.6,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 134,
+    "category": "Accessories",
+    "subCategory": "Handbags",
+    "tags": [
+      "clutch",
+      "suede",
+      "evening",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Chic suede clutch for evening events.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Compact and elegant for nights out.",
+      "material": "suede",
+      "country": "France",
+      "brand": "Belle Mode",
+      "color": [
+        "Brown",
+        "White",
+        "Plum",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  },
+  {
+    "id": 45,
+    "sku": "ACC-GLV-045",
+    "name": "Knit Fingerless Gloves",
+    "price": 18.0,
+    "rating": 4.3,
+    "discount": 20,
+    "stock": "Instock",
+    "review": 189,
+    "category": "Accessories",
+    "subCategory": "Gloves",
+    "tags": [
+      "gloves",
+      "fingerless",
+      "knit",
+      "accessories"
+    ],
+    "details": {
+      "sub-desc": "Trendy fingerless gloves for cool weather.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Keep hands warm while staying connected to your devices.",
+      "material": "knit wool",
+      "country": "UK",
+      "brand": "WoolHouse",
+      "color": [
+        "Pink",
+        "White",
+        "Red",
+        "Blue"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  }
+]

@@ -1,0 +1,66 @@
+.orderSummary {
+    border: 1px solid #a8a8a8;
+    margin: min(3.556vh, 2vw);
+    width: min(40.889vh, 23vw);
+    height: auto;
+    padding: min(2.489vh, 1.4vw);
+    position: sticky;
+}
+.orderSummary .title h2 {
+    padding: min(1.778vh, 1vw) 0;
+    font-size: min(2.133vh, 1.2vw);
+    font-weight: 600;
+}
+.orderSummary .line {
+    border-bottom: 1px solid #787878;
+    padding: min(0.533vh, 0.3vw);
+}
+.textContainer{
+    padding: min(2.311vh, 1.3vw);
+}
+.totalContainer {
+    display: flex;
+    flex-direction: column;
+    gap: min(1.778vh, 1vw);
+    margin: min(1.778vh, 1vw) 0 min(1.778vh, 1vw) 0;
+}
+.textContainer h3 {
+    font-weight: 600;
+    color: #888;
+}
+.total, .shipping, .taxes, .total, .subtotal, .totalItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: min(1.422vh, 0.8vw);
+    padding: min(0.356vh, 0.2vw);
+}
+.total p, .shipping p, .taxes p, .total p, .subtotal p, .totalItem p {
+    font-size: min(1.956vh, 1.1vw);
+}
+.total {
+    border-top: 1px solid #787878;
+    padding-top: min(1.778vh, 1vw);
+}
+.buttonCheckout {
+    margin-top: min(1.778vh, 1vw);
+}
+.buttonCheckout button{
+    padding: min(1.778vh, 1vw);
+    font-weight: 600;
+    width: 100%;
+    font-size: min(1.778vh, 1vw);
+    background-color: #3F1700;
+    color: #fff;
+}
+.buttonPayment {
+    margin-top: min(1.778vh, 1vw);
+}
+.buttonPayment button{
+    padding: min(1.778vh, 1vw);
+    font-weight: 600;
+    width: 100%;
+    font-size: min(1.778vh, 1vw);
+    background-color: #3F1700;
+    color: #fff;
+}

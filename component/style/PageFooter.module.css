@@ -1,0 +1,31 @@
+.icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: min(1.956vh, 1.1vw);
+    align-items: center;
+    padding: min(8.889vh, 5vw) min(14.222vh, 8vw);
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.icons .title {
+    margin-block: min(1.778vh, 1vw);
+}
+.iconContent {
+    margin-right: min(3.556vh, 2vw);
+    font-size: min(5.333vh, 3vw);
+    position: relative;
+    margin-top: min(1.778vh, 1vw);
+    display: inline-block;
+    z-index: 1;
+}
+.iconBoxInner {
+    background-color: #F5BD62;
+    border-radius: 50%;
+    padding: min(2.311vh, 1.3vw);
+    position: absolute;
+    bottom: 15%;
+    left: 25%;
+    z-index: -1;
+}

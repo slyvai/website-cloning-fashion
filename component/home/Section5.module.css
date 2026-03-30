@@ -1,0 +1,94 @@
+.section5 {
+    height: min(70vh, 39.375vw);
+    width: 100%;
+    margin: 0 min(10vw, 17.778vh);
+}
+
+.container {
+    display: flex;
+    height: min(56.889vh, 32vw);
+    gap: min(3.556vh, 2vw);
+}
+
+.textContainer {
+    font-size: min(2.133vh, 1.2vw);
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    position: absolute;
+    flex: 1;
+    padding: 2rem;
+    z-index: 1;
+}
+
+.imageContainer1 {
+    flex: 1;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    min-height: min(71.111vh, 40vw);
+}
+
+.imageContainer2 {
+    flex: 1;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    min-height: min(88.889vh, 50vw);
+}
+
+.imageContainer1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.imageContainer2 img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.man {
+    background-color: #F6F6F6;
+    overflow: hidden;
+    width: 40%;
+}
+
+.man button {
+    font-size: min(1.778vh, 1vw);
+    padding: min(1.778vh, 1vw) min(5.333vh, 3vw);
+    background-color: #F5BD62;
+    color: #000000;
+    border: none;
+    letter-spacing: min(0.178vh, 0.1vw);
+}
+
+.woman {
+    width: 40%;
+    overflow: hidden;
+    background-color: #F5BD62;
+}
+
+.woman button {
+    font-size: min(1.778vh, 1vw);
+    padding: min(1.778vh, 1vw) min(5.333vh, 3vw);
+    background-color: #3F1700;
+    color: #ffffff;
+    border: none;
+    letter-spacing: min(0.178vh, 0.1vw);
+}
+
+.textContainer h1,
+.textContainer button {
+    margin-block: min(4.444vh, 2.5vw);
+}
+
+.textContainer h1 {
+    font-size: min(4.267vh, 2.4vw);
+    line-height: 1.5;
+}

@@ -1,0 +1,44 @@
+.accountContainer {
+    display: flex;
+}
+
+.tabButtons {
+    display: flex;
+    flex-direction: column;
+    margin: min(3.556vh, 2vw);
+    gap: min(1.778vh, 1vw);
+}
+
+.tabButtons button {
+    background-color: #fff;
+    border: 1px solid #a8a8a8;
+    padding: min(2.311vh, 1.3vw) min(26.667vh, 15vw) min(2.311vh, 1.3vw) min(1.778vh, 1vw);
+    text-align: left;
+    font-size: min(2.489vh, 1.4vw);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tabContent {
+    flex: 1;
+    width: 90%;
+}
+
+.logout {
+    margin-top: min(1.778vh, 1vw);
+}
+
+.button button {
+    background-color: #3F1700;
+    color: #fff;
+    padding: min(1.778vh, 1vw) min(3.556vh, 2vw);
+    font-size: min(1.778vh, 1vw);
+    font-weight: 600;
+    margin-top: min(1.778vh, 1vw);
+}
+
+.title p {
+    margin-top: min(0.889vh, 0.5vw);
+    font-size: min(1.778vh, 1vw);
+    color: #888;
+}

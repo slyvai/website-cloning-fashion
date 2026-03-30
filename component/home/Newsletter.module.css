@@ -1,0 +1,60 @@
+.newsletterContainer {
+    height: min(100vh, 56.25vw);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: min(7.111vh, 4vw) min(3.556vh, 2vw);
+    font-size: min(2.311vh, 1.3vw);
+    gap: min(1.778vh, 1vw);
+    text-align: center;
+    line-height: 2;
+}
+
+.desc {
+    font-size: min(1.6vh, 0.9vw);
+    color: #787878;
+}
+
+.input {
+    display: flex;
+    margin-top: min(1.778vh, 1vw);
+}
+
+.inputContainer {
+    border: min(0.178vh, 0.1vw) solid #787878;
+    display: flex;
+    width: min(35.556vh, 20vw);
+    height: min(6.222vh, 3.5vw);
+}
+
+.inputContainer input {
+    border: none;
+    outline: none;
+    font-size: min(1.6vh, 0.9vw);
+    margin-top: min(0.356vh, 0.2vw);
+}
+
+.mailIcon {
+    background-color: #F5BD62;
+    padding: 0 min(0.889vh, 0.5vw);
+    margin: min(0.356vh, 0.2vw);
+    font-size: min(2.667vh, 1.5vw);
+}
+
+.buttonContainer button {
+    font-size: min(1.778vh, 1vw);
+    padding: min(2.133vh, 1.2vw) min(2.311vh, 1.3vw);
+    background-color: #3F1700;
+    color: #ffffff;
+    border: none;
+    margin-left: min(1.778vh, 1vw);
+}
